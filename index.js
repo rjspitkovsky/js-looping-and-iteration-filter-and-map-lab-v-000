@@ -12,5 +12,5 @@ function exactMatch(drivers, object) {
   let keys = Object.keys(object)
   let values = Object.values(object)
   let key = object[keys]
-  return drivers.filter(function (driver) {return driver[key] === value})
+  return drivers.filter(function (driver) {return driver[key] === values})
 }
